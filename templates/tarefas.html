@@ -1,0 +1,15 @@
+
+<html>
+<head>
+    <title>Minha Lista de Tarefas</title>
+</head>
+<body>
+    <h1>Minhas Tarefas</h1>
+    {{ Lista }}
+    <form action="/add" method="post">
+        <input type="text" name="task" placeholder="Digite uma nova tarefa" required>
+        <button type="submit">Adicionar</button>
+    </form>
+            
+</body>
+</html>
